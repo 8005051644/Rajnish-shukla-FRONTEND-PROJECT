@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Language Translator</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="script.js" defer></script>
+</head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <div class="content">
+          <textarea class="from-text" placeholder="Enter text"></textarea>
+          <textarea class="to-text" placeholder="translation" readonly></textarea>
+        </div>
+        <ul class="controls">
+            <li class="row from">
+              <div class="icons">
+                <i id="from" class="fas fa-volume-up"></i>
+                <i id="from" class="fas fa-copy"></i>
+              </div>
+              <select>Language</select>
+            </li>
+            <li class="exchange"><i class="fas fa-exchange-alt"></i></li>
+            <li class="row to">
+              <select>Language</select>
+              <div class="icons">
+                <i id="to" class="fas fa-volume-up"></i>
+                <i id="to" class="fas fa-copy"></i>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <button>Translate</button>
+    </div>
+
+  </body>
+</html>
