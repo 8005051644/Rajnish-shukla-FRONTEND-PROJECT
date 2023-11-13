@@ -1,0 +1,85 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: bisque;
+}
+.container{
+    height: 82%;
+    width: 94%;
+    border: 0.3rem solid white;
+    border-radius: 2rem;
+    padding: 0.8rem 0.6rem;
+    background-color: ghostwhite;
+    box-shadow: -1rem -1rem 1rem white;
+          
+}
+.container h1{
+      text-align: center;
+      font-size: 2rem;
+      font-family: fantasy;
+      text-shadow: 0rem 0.2rem 0.2rem gray;
+      padding: 0.2rem 0.2rem;
+    margin-bottom: 0.6rem
+  }
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.2rem solid transparent;
+    height: 90%;
+    border-radius: 2rem;
+}
+ .boxone{
+    height: 15%;
+    width: 100%;
+   border-bottom: 2px solid wheat;
+}
+ .boxtwo{
+    height: 97%;
+    width: 100%;
+}
+ #text{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    resize: none;
+    font-size: 1.3rem;
+    border-radius: 0rem;
+    border: none;
+    font-family: cursive;
+}
+iframe{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    resize: none;
+    font-size: 1.3rem;
+    border-radius: 0rem;
+    border: none;
+    font-family: cursive;
+
+}
+button{
+    padding: 0.3rem 0.8rem;
+    margin-right: 0.3rem;
+    border: none;
+}
+select{
+    padding: 0.3rem 0.8rem;
+    margin-right: 0.3rem;
+    border: none;
+}
+div.two{
+    padding: 0.2rem 0.2rem;
+    margin-top: 0.6rem;
+}
