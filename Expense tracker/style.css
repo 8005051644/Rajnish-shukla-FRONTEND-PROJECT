@@ -1,0 +1,107 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+body{
+    height: 100vh;
+    background-color: azure;
+    display: block;
+    margin: auto;
+    margin-top: 4.5rem;
+}
+#expense{
+    padding: 4rem;
+    text-align: center;
+    border: 0.1rem solid #f3e8e8;
+    background-color: white;
+    border-radius: 4.4rem;
+    font-family: fantasy;
+    text-shadow: 0.05rem 0.09rem 0.09rem;
+    height: 16%;
+    align-self: center;
+}
+#expense h2{
+    margin-bottom: revert;
+    font-size: 1.9rem;
+}
+input{
+    padding: 0.5rem 1rem;
+    border: 0.1rem solid black;
+    text-align: center;
+    font-family: cursive;
+}
+button{
+    padding: 0.4rem 0.3rem;
+    cursor: pointer;
+    border: 0.1rem solid black;
+    background-color: darkgrey;
+    padding: 0.4rem 0.3rem;
+    cursor: pointer;
+    border: 0.1rem solid black;
+    background-color: darkgrey;
+    margin-left: 0.3rem;
+    transition: all;
+    font-family: cursive;
+}
+button:hover{
+    box-shadow: 0.1rem 0.1rem 0.1rem black;
+    transition-timing-function: ease-out;
+    transition-duration: 0.5ms;
+    background-color: blueviolet;
+    color: #f3e8e8;
+    
+}
+#expense-list{
+    text-align: center;
+    margin-top: 1.4rem;
+    font-family: cursive;
+    font-size: 1.2rem;
+    color: rgb(2, 108, 16);
+
+}
+.delete-button {
+    background-color: #f72a06; 
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 320px) {
+body {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    }
+
+#expense {
+    width: 80%;
+    text-align: center;
+    border: 0.1rem solid #f3e8e8;
+    background-color: white;
+    border-radius: 4.4rem;
+    font-family: fantasy;
+    text-shadow: 0.05rem 0.09rem 0.09rem;
+    align-self: center;
+    }
+
+#expense h2 {
+    font-size: 1.2rem;
+    }
+
+input {
+    width: 80%;
+    }
+
+    button {
+width: 80%;
+    }
+#expense-list{
+    text-align: center;
+    margin-top: 1.4rem;
+    font-family: cursive;
+    font-size: 1.2rem;
+    margin-top: 4rem;
+    }
+}
